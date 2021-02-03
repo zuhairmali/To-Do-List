@@ -11,6 +11,7 @@
 		3FB9FF5F25C868BC00CA06E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9FF5E25C868BC00CA06E6 /* ContentView.swift */; };
 		3FB9FF6125C868C000CA06E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9FF6025C868C000CA06E6 /* Assets.xcassets */; };
 		3FB9FF6425C868C000CA06E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB9FF6325C868C000CA06E6 /* Preview Assets.xcassets */; };
+		3FB9FF6D25C9B38400CA06E6 /* Additemview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB9FF6C25C9B38400CA06E6 /* Additemview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3FB9FF6025C868C000CA06E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FB9FF6325C868C000CA06E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FB9FF6525C868C000CA06E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB9FF6C25C9B38400CA06E6 /* Additemview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additemview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3FB9FF5C25C868BC00CA06E6 /* To_Do_ListApp.swift */,
 				3FB9FF5E25C868BC00CA06E6 /* ContentView.swift */,
+				3FB9FF6C25C9B38400CA06E6 /* Additemview.swift */,
 				3FB9FF6025C868C000CA06E6 /* Assets.xcassets */,
 				3FB9FF6525C868C000CA06E6 /* Info.plist */,
 				3FB9FF6225C868C000CA06E6 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB9FF6D25C9B38400CA06E6 /* Additemview.swift in Sources */,
 				3FB9FF5F25C868BC00CA06E6 /* ContentView.swift in Sources */,
 				3FB9FF5D25C868BC00CA06E6 /* To_Do_ListApp.swift in Sources */,
 			);

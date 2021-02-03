@@ -8,9 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var toDoList = ToDoList()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                Text("First Thing")
+                Text("Second Thing")
+                Text("Third Thing")
+                Text("Fourth Thing")
+                Text("Fifth Thing")
+            }
+            .navigationBarTitle("Things")
+                ForEach(toDoList.items) {item in
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.priority)
+                                .font(.headline)
+                            Text(item.description)
+                        }
+                        Spacer()
+                        Text(I)
+                    }
+            }
+        }
+      
     }
 }
 
